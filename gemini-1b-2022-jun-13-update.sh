@@ -78,7 +78,7 @@ function eof_docker_compose {
         "--node-rpc-url", "ws://node:9944",
         "--ws-server-listen-addr", "0.0.0.0:9955",
         "--reward-address", "$WALLET_ADDRESS",
-        "--plot-size", "500G"
+        "--plot-size", "800G"
       ]
   volumes:
     node-data:
